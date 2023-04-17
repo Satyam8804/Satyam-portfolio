@@ -1,6 +1,10 @@
 {
   "name": "portfolio-react",
   "version": "0.1.0",
+<<<<<<< HEAD
+=======
+  "private": false,
+>>>>>>> 878b53a5c8804aec86e6c5895ea233e0000a6403
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
