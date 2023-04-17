@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4200a892.css",
+    "main.js": "/static/js/main.738fcbd5.js",
+    "static/js/787.aeca62f9.chunk.js": "/static/js/787.aeca62f9.chunk.js",
+    "static/media/about_img.jpg": "/static/media/about_img.78e48a64410876346d5c.jpg",
+    "static/media/snakeGame.png": "/static/media/snakeGame.3fd616be9174b8e3ef4f.png",
+    "static/media/portfolio.png": "/static/media/portfolio.d0dd263737dff6ed7001.png",
+    "static/media/imageGallery.png": "/static/media/imageGallery.b70aab051507bb3a4bd2.png",
+    "static/media/placementPortal.png": "/static/media/placementPortal.20565d86fa0496ed35ac.png",
+    "static/media/Satyam_Resume.pdf": "/static/media/Satyam_Resume.129785a9b8274e748ea6.pdf",
+    "static/media/tictactoe.png": "/static/media/tictactoe.96ab4db9654450bd4acc.png",
+    "index.html": "/index.html",
+    "main.4200a892.css.map": "/static/css/main.4200a892.css.map",
+    "main.738fcbd5.js.map": "/static/js/main.738fcbd5.js.map",
+    "787.aeca62f9.chunk.js.map": "/static/js/787.aeca62f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4200a892.css",
+    "static/js/main.738fcbd5.js"
+  ]
+}

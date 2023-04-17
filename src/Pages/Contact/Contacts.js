@@ -1,6 +1,6 @@
 import React from 'react'
 import './Contact.css'
-import 'https://smtpjs.com/v3/smtp.js'
+
 
 const Contacts = () => {
 

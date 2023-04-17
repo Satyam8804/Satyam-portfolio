@@ -1,6 +1,6 @@
 import React from 'react'
 import '../About/About.css'
-// import about_img from '../../image/about_img.jpg'
+import about_img from '../../image/about_img.jpg'
 const About = () => {
   return (
 
@@ -12,10 +12,10 @@ const About = () => {
   </span>
 </div>
 <div className="about_content">
-  {/* <div className="about_img ">
+  <div className="about_img ">
       <img src={about_img} alt=""/>
     
-  </div> */}
+  </div>
   <div className="about_details">
       <div id="about_text">
         an enthusiast and technology driven individual and pursuing Btech in Computer science &

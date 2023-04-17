@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import '../node_modules/bootstrap/dist/js/bootstrap.min.js'
-import '../node_modules/jquery/dist/jquery'
-import kursor from '../node_modules/kursor/dist/kursor'
-import '../node_modules/kursor/dist/kursor.css' 
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.min.js'
+import 'jquery/dist/jquery'
 
-import '../node_modules/swiper/swiper-bundle.min.css'
+import 'kursor/dist/kursor.css' 
+import 'swiper/swiper-bundle.min.css'
+const kursor = require('kursor');
 
 new kursor({
   type: 1,
