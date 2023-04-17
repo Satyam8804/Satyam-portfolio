@@ -1,0 +1,214 @@
+/* swipper */
+.projects1{
+    /* background-color: transparent; */
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* gap: 1rem; */
+    padding-bottom: 3rem;
+    
+    /* align-items: center; */
+}
+
+
+.project-title{
+    align-self: center;
+    width: fit-content;
+    font-size: 4rem;
+    background: transparent;
+    color:  rgb(10, 157, 254);
+    font-weight:bolder;
+}
+.mySwiper{
+    height: 400px !important;
+    background: transparent;
+    width: 100%;
+    
+    padding-top:5rem ;
+    padding-bottom:8rem ;
+}
+
+.swipper-wrapper{
+    align-items: center;
+     background: #333333f5;
+   
+ }
+ .swiper-slide{
+     align-items: center;
+     background: transparent;
+     width: 60%;
+     height: 100%;
+     padding: 0;
+     border-radius: 7px;
+ }
+ .swiper{
+    width: 100%;
+    height: 500px !important;
+    padding: 50px 0 50px 0 !important;
+   
+ }
+ 
+ .swiper-slide img{
+ 
+     position: absolute;
+     width:100%;
+     height: 100%;
+     border-radius: 7px;
+ }
+ .swiper-slide-active{
+     transform: scale(1.2) !important;
+     z-index: 99;
+     transition:.2s;
+     /* z-index: 1; */
+ }
+ .swiper-pagination{
+     background: transparent;
+ }
+ 
+ .swiper-text{
+    /* margin-top:50%; */
+     height: 60%;
+     transform: translateY(65%);
+     transition: .7s;
+     width: 100%;
+     padding: 8px;
+     background-color: rgba(0, 0, 0, 0.681);
+     position: absolute;
+     bottom: -.7rem;
+     left: .7rem;
+     text-align: center;
+     border-radius:7px;
+     display: flex;
+     flex-direction: column;
+     /* font-size: 1rem; */
+     justify-content: space-evenly;
+ 
+ }
+ .swiper-text:hover{
+    transform: scaleY(100%);
+    height: 100%;
+    transition: .7s;
+ }
+
+ .swiper-text h3{
+     background: transparent;
+         color:#fff ;
+     
+     filter: drop-shadow(2px 2px 5px rgb(0, 251, 255));
+ }
+ .swiper-text a{
+     text-decoration: none !important;
+     align-self: center;
+ }
+ .swiper-button-next,.swiper-button-prev{
+     color: rgb(0, 251, 255);
+     filter: drop-shadow(2px 2px 5px #14ffd0) ;
+ }
+ .swiper-slide-next,.swiper-slide-prev{
+     filter: blur(5px);
+ }
+
+ .project-slider{
+    background: #333333f5;
+    /* padding: 3rem; */
+}
+
+
+.description{
+    background-color: transparent;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    font-family: 'Roboto Mono', monospace !important;
+}
+.description *{
+    background: transparent;
+    font-family: 'Roboto Mono', monospace !important;
+    color: #fff;
+    font-size: .7rem !important;
+    margin-right: 10px !important;
+    /* letter-spacing: 2px; */
+    list-style-type: style;;
+}
+.description ul{
+    display: flex;
+    padding-left: 2rem;
+    /* gap: 3rem; */
+    flex-direction: row;
+}
+.visit{
+    /* padding-top: 1rem !important; */
+    box-shadow: 0 0 10px gray !important;
+    border-radius: 5px !important;
+    height: fit-content;
+    color: #fff !important;
+    width: fit-content;
+    text-transform: uppercase;
+    letter-spacing: 2px !important;
+    font-family: 'Roboto Mono', monospace !important;
+    font-weight: 700 !important;
+    font-size: 1.2rem !important;
+    text-align: center;
+    background-color:#0e0d0d48 !important;
+    border: 3px inset hotpink !important;
+     
+}
+
+.visit:hover{
+    cursor: pointer;
+    background: #14ffe7 !important;
+    box-shadow: 0 0 30px #14ffd0 !important;
+    border: 3px inset #fff !important;
+
+}
+
+.swiper-button-next,.swiper-button-prev{
+    background-color: transparent;
+   }
+
+  
+@media (max-width:950px)  {
+
+     /* swipper */
+     .mySwiper{
+        height: 350px !important;
+        padding-top:7rem ;
+        padding-left: 5rem !important;
+        padding-right: 5rem !important;
+        /* padding-bottom:15rem ; */
+    }
+    .projects1{
+        padding-bottom: 7rem;
+        padding-top: 0;
+        justify-content: space-around;
+    }
+    .swiper-slide-active{
+        transform: scale(1.2) !important;
+    }
+    .swiper-slide{
+        width: 65%;
+
+    }
+
+    /* .swiper-button-next,.swiper-button-prev{
+        display: none;
+    } */
+    
+   .visit{
+    padding: 0.5 !important;
+    height: fit-content;
+    width: fit-content;
+    font-size: .9rem !important;
+    margin-bottom:1rem !important;
+   }
+   
+   .description *{
+    font-size: .5rem !important;
+
+   }
+ 
+}

@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #333333f5;
+    font-family: 'Poppins',sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* #click:checked ~.menu-btn i:before{
+    content: "\f00d";
+}
+#click{
+    display: none;
+} */
+.kursor{
+    background-color: transparent;
+}
+
+/* loader */
+
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow:hidden;
+    background-color: #242f3f;
+    display:flex;
+    z-index: 4;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+  }
+  .loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+  }
+  
+  @keyframes loader {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}
+  }
+  
+  @keyframes loader-inner {
+    0% { height: 0%;}
+    25% { height: 0%;}
+    50% { height: 100%;}
+    75% { height: 100%;}
+    100% { height: 0%;}
+  } 
+
+/* loader end */
+
+
+ header{
+    position: relative;
+    display: block;
+ border-bottom: 1px solid rgb(0, 251, 255); 
+    padding: 2em;
+}
+
+
+.indicator{
+    display: none;
+}
+
+
+
+#changeText{
+    margin-left: 13rem;
+}
+
+
+/* .image{
+    position: relative;
+    background: transparent;
+    height: fit-content;
+    width: max-content;
+    padding: 0;
+} */
+
+
+
+.aboutMe{
+    justify-content: center;
+}
+
+
+#eng{
+    color: hotpink;
+    text-align: left;
+}
+
+/* Education */
+
+
+
+
+
+
+
+i{
+    color: #fff; 
+    font-size: 3rem;
+}
+
+
+@keyframes borderAni {
+ 
+    0%{
+        left: 0;
+        width: 0;
+    }
+    25%{
+        width: 25%;
+    }
+   
+    100%{
+        left: 100%;
+        width: 0;
+    }
+}
+.bb{
+    border-bottom: 3px inset hotpink;
+    border-radius: 4px;
+    position: relative;
+    top: 0%;
+    width: 50px;
+    left: 0;
+    animation: alternate;
+    animation-name: borderAni;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+
+/* Media query */
+
+@media (max-width:950px)  {
+    
+   
+     /* .indicator {
+        display: block;
+        position: absolute;
+        top: -35px;
+        width: 70px;
+        height: 70px;
+        
+        border-radius: 50%;
+        bottom: 20px;
+        box-shadow: none;
+    }
+
+    .indicator ::before{
+        content:' ' ;
+        position: absolute;
+        top: 5px;
+        left: -25px;
+        width: 30px;
+        height: 30px;
+        background: transparent;
+        border-radius: 50%;
+        top: 5px;
+    }
+
+    .indicator ::after{
+        content:' ' ;
+        position: absolute;
+        top: 5px;
+        left: -25px;
+        width: 30px;
+        height: 30px;
+        background: transparent;
+        border-radius: 50%;
+        top: 5px;
+        left: -20px;
+    } 
+    nav ul li:nth-child(1).active ~.indicator {
+        transform: translateX(calc(-24px));
+    }
+    nav ul li:nth-child(2).active ~.indicator{
+        transform: translateX(calc(60px*1));
+    }
+    nav ul li:nth-child(3).active ~.indicator {
+        transform: translateX(calc(71px*2));
+    }
+    nav ul li:nth-child(4).active ~.indicator {
+        transform: translateX(calc(80px*3));
+    }
+    nav ul li:nth-child(5).active ~.indicator {
+        transform: translateX(calc(80px*4));
+    } */
+
+    
+    /* nav .menu-btn i{
+        display: block;
+    } */
+
+   
+  
+   
+    .details{
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        flex-direction: row;
+    }
+
+
+
+
+ 
+
+   
+    table tr td{
+        padding: 10px;
+        font-size: medium;
+    }
+   
+ 
+
+}
