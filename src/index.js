@@ -6,8 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.min.js'
 import '../node_modules/jquery/dist/jquery'
-import kursor from '../node_modules/kursor/dist/kursor'
-import '../node_modules/kursor/dist/kursor.css' 
+import kursor from 'kursor/dist/kursor'
+import 'kursor/dist/kursor.css' 
 
 import '../node_modules/swiper/swiper-bundle.min.css'
 

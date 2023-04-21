@@ -1,6 +1,6 @@
 import React from 'react'
 import '../About/About.css'
-// import about_img from '../../image/about_img.jpg'
+import about_img from '../../image/about_img.jpg'
 const About = () => {
   return (
 
@@ -12,15 +12,15 @@ const About = () => {
   </span>
 </div>
 <div className="about_content">
-  {/* <div className="about_img ">
-      <img src={about_img} alt=""/>
+  <div className="about_img ">
+      <img src={about_img} alt="img"/>
     
-  </div> */}
+  </div>
   <div className="about_details">
       <div id="about_text">
         an enthusiast and technology driven individual and pursuing Btech in Computer science &
         engineering. Eagerly looking for a reputed company where i can showcase my skills and learn new
-        technology to upgrad my skills.
+        technology to upgrade my skills.
       </div>
      
       <div className="about_table border-0" >
@@ -28,7 +28,7 @@ const About = () => {
           <table id="about_table1">
           <tr>
             <td ><i className='fas fa-angle-double-right' style={{fontSize:"1rem"}}></i>{' '}Email </td>
-            <td>:<a href="mailto:satyam8804378323@gmail.com" style={{textDecoration: " none"}}>{' '}Satyam8804378323@gmail.com</a></td>
+            <td>:<a href="mailto:satyam8804378323@gmail.com" style={{textDecoration:" none"}}>{' '}Satyam8804378323@gmail.com</a></td>
           </tr>
           <tr>
             <td><i className='fas fa-angle-double-right' style={{fontSize:"1rem"}}></i>{' '}Phone</td>
