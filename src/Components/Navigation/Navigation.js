@@ -21,7 +21,7 @@ item.addEventListener("click" ,activeLink));
         <ul>
             <li  className="list active">
                <Link to="/">
-              <span className="text active">Home</span>
+              <span className="text active1">Home</span>
               <span className="icon"><ion-icon name="home-outline"></ion-icon></span>
               </Link> 
             </li>
