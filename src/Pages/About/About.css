@@ -144,6 +144,7 @@ img{
         width: 100%;
         height: 100vh;
         padding-top: 0;
+        padding-top: 6rem;
     
         /* padding: .7rem; */
     } 
@@ -153,9 +154,9 @@ img{
     align-items: center;
    }
    .about_text{
-    padding:1rem;
+    /* padding:.5rem; */
     word-wrap: break-word;
-    font-size: 1rem;
+    font-size: .7rem;
 }
 .about_details{
     gap: 1rem;
